@@ -14,10 +14,10 @@ width: 6
 </p>
 
 <div style="display: flex; flex-wrap: wrap; gap: 18px;">
-  <img src="/assets/images/orchestra1.jpg" width="320" height="240" style="object-fit:cover; aspect-ratio:4/3; border-radius:9px;">
-  <img src="/assets/images/orchestra2.jpg" width="320" height="240" style="object-fit:cover; aspect-ratio:4/3; border-radius:9px;">
-  <img src="/assets/images/orchestra3.jpg" width="320" height="240" style="object-fit:cover; aspect-ratio:4/3; border-radius:9px;">
-  <img src="/assets/images/orchestra4.png" width="320" height="240" style="object-fit:cover; aspect-ratio:4/3; border-radius:9px;">
-  <img src="/assets/images/orchestra5.jpg" width="320" height="240" style="object-fit:cover; aspect-ratio:4/3; border-radius:9px;">
-  <img src="/assets/images/orchestra6.jpg" width="320" height="240" style="object-fit:cover; aspect-ratio:4/3; border-radius:9px;">
+  ![](/assets/images/orchestra1.jpg)
+  ![](/assets/images/orchestra2.jpg)
+  ![](/assets/images/orchestra3.jpg)
+  ![](/assets/images/orchestra4.png)
+  ![](/assets/images/orchestra5.jpg)
+  ![](/assets/images/orchestra6.jpg)
 </div>
