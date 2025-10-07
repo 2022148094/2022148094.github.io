@@ -6,6 +6,8 @@ show: true
 width: 4
 ---
 
+### Spain
+
 <div class="scroll-gallery-rect">
   <img src="/assets/images/spain1.jpg" alt="Spain 1"/>
   <img src="/assets/images/spain2.jpg" alt="Spain 2"/>
