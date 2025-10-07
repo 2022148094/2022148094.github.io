@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 baseurl: "" # the subpath of your site, e.g. /blog
 
-url: "https://Dongjun_Park.github.io"  # 네 GitHub Pages URL
+url: "https://2022148094.github.io"  # 네 GitHub Pages URL
 
 title: "Dongjun Park"
 description: "Computer Science Student at Yonsei University"
