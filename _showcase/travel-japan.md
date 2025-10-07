@@ -6,6 +6,8 @@ show: true
 width: 4
 ---
 
+### Japan
+
 <div class="scroll-gallery-rect">
   <img src="/assets/images/japan1.jpg" alt="Japan 1"/>
   <img src="/assets/images/japan2.jpg" alt="Japan 2"/>
