@@ -5,8 +5,22 @@ navbar_title: Showcase
 container_class: container-xl
 ---
 
-{% assign cards_by_group = site.showcase | sort: "date" | reverse | where: "show", true | group_by_exp: "item", "item.group" %}
+<style>
+.scroll-gallery {
+  display: flex;
+  overflow-x: auto;
+  gap: 10px;
+  padding: 10px 0;
+}
 
+.scroll-gallery img {
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+</style>
+
+{% assign cards_by_group = site.showcase | sort: "date" | reverse | where: "show", true | group_by_exp: "item", "item.group" %}
 {% for group in cards_by_group %}
 <h1>{{ group.name }}</h1>
 <div class="row grid mb-4">
