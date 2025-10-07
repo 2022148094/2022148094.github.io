@@ -1,18 +1,50 @@
 {% assign item = include.item %}
+
+<!-- Styles for description toggle -->
+<style>
+.pub-desc {
+    display: none;
+}
+.pub-desc.show {
+    display: block;
+}
+.toggle-desc-btn {
+    cursor: pointer;
+    color: #0366d6;
+    text-decoration: none;
+    font-size: 0.875rem;
+    margin-left: 0.25rem;
+}
+.toggle-desc-btn:hover {
+    text-decoration: underline;
+}
+</style>
+
 <div class="d-none d-md-block">
     <div class="row no-gutters {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray">
         <div class="col-md-3 col-xl-2 mb-md-0 p-md-3">
             {%- if item.cover -%}
-            <img data-src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="lazy w-100 rounded-sm" src="{{ '/assets/images/empty_300x200.png' | relative_url }}">
+            <img data-src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="lazy w-100 rounded-sm" src="{{ '/assets/images/empty_300x200.png' | relative_url }}"/>
             {%- else -%}
             <svg class="bubble-visual-hash lazy w-100 rounded-sm" data-bubble-visual-hash="{{ item.id }}" viewBox="0 0 300 200"></svg>
             {%- endif -%}
         </div>
         <div class="col-md-9 col-xl-10 p-3 pl-md-0">
-            <h5 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h5>
+            <h5 class="mt-0 mb-1 font-weight-normal">
+                {{ item.title }}
+                {%- if item.description -%}
+                <span class="toggle-desc-btn" onclick="toggleDescription(this)">[More]</span>
+                {%- endif -%}
+            </h5>
             <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
             <p class="mt-0 mb-0 small">{{item.pub_pre}}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }} <span data-semantic-scholar-id="{{ item.semantic_scholar_id }}"></span></p>
             <p class="mt-0 mb-0 small text-muted">{{ item.abstract }}</p>
+            
+            {%- if item.description -%}
+            <div class="pub-desc mt-2">
+                <p class="small text-muted">{{ item.description }}</p>
+            </div>
+            {%- endif -%}
             
             <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
                 {% for link in item.links %}
@@ -23,7 +55,6 @@
                 {% endif %}
                 {% endfor %}
             </p>
-
         </div>
     </div>
 </div>
@@ -33,10 +64,21 @@
         <div class="d-flex align-items-start flex-column py-3 px-4">
             <div class="mb-auto"></div>
             <div>
-                <h5 class="mt-0 mb-1 font-weight-normal">{{ item.title }}</h5>
+                <h5 class="mt-0 mb-1 font-weight-normal">
+                    {{ item.title }}
+                    {%- if item.description -%}
+                    <span class="toggle-desc-btn" onclick="toggleDescription(this)">[More]</span>
+                    {%- endif -%}
+                </h5>
                 <p class="mt-0 mb-0 small">{% include widgets/author_list.html authors=item.authors %}</p>
                 <p class="mt-0 mb-0 small">{{item.pub_pre}}<i>{{ item.pub }}</i>{{ item.pub_post }} {{ item.pub_date }} {{ item.pub_last }} <span data-semantic-scholar-id="{{ item.semantic_scholar_id }}"></span></p>
                 <p class="mt-0 mb-0 small text-muted">{{ item.abstract }}</p>
+                
+                {%- if item.description -%}
+                <div class="pub-desc mt-2">
+                    <p class="small text-muted">{{ item.description }}</p>
+                </div>
+                {%- endif -%}
                 
                 <p class="small pb-0 mb-0 lh-125 text-muted abstract-links">
                     {% for link in item.links %}
@@ -50,5 +92,15 @@
             </div>
         </div>
     </div>
-
 </div>
+
+<!-- JavaScript for toggle functionality -->
+<script>
+function toggleDescription(btn) {
+    var descDiv = btn.closest('.col-md-9, .d-flex').querySelector('.pub-desc');
+    if (descDiv) {
+        descDiv.classList.toggle('show');
+        btn.textContent = descDiv.classList.contains('show') ? '[Less]' : '[More]';
+    }
+}
+</script>
