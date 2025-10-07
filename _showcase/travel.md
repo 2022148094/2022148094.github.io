@@ -8,7 +8,7 @@ width: 6
 
 ## Exploring the World
 
-여행을 통해 다양한 문화와 경험을 쌓았습니다.
+Traveling abroad with friends
 
 ---
 
