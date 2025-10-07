@@ -1,13 +1,12 @@
 ---
 title: Travel Experiences
 date: 2024-01-15
-group: Travel
+group: Activity
 show: true
 width: 6
 ---
 
 ### Fukuoka, Japan
-
 <div class="scroll-gallery-rect">
   <img src="/assets/images/japan1.jpg">
   <img src="/assets/images/japan2.jpg">
@@ -19,7 +18,6 @@ width: 6
 ---
 
 ### Spain
-
 <div class="scroll-gallery-rect">
   <img src="/assets/images/spain1.jpg">
   <img src="/assets/images/spain2.jpg">
@@ -32,7 +30,6 @@ width: 6
 ---
 
 ### Danang, Vietnam
-
 <div class="scroll-gallery-rect">
   <img src="/assets/images/danang1.jpg">
   <img src="/assets/images/danang2.jpg">
