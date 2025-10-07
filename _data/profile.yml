@@ -22,7 +22,9 @@ phone : "010-3877-6368"
 short_bio_text_justify: False
 short_bio: >-
   <p>
-   I am a Computer Science student at Yonsei University with research interests at the intersection of Artificial Intelligence and Financial Engineering. 
+   I am a Computer Science student at Yonsei University with research interests at the intersection of Artificial Intelligence and Financial Engineering.
+  </p>
+  <p>
    I am particularly interested in Reinforcement Learning for Algorithmic Trading and Natural Language Processing for Market Sentiment Analysis.
   </p>
 
