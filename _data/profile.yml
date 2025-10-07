@@ -45,10 +45,12 @@ education:
 
 experience:
 - name: Republic of Korea Air Force
-  position: "Squad Leader, Guard Post Operations"
+  position: |-
+  Squad Leader, Guard Post Operations
   date: Sep. 2023 – Jun. 2025
-- name: "Multiple Private Clients and Academic Teams"
-  position: "Private Tutor & Teaching Assistant"
+- name: Multiple Private Clients and Academic Teams
+  position: |-
+  Private Tutor & Teaching Assistant
   date: Mar. 2022 – Jul. 2023
 - name: "Academic Projects (Yonsei University)"
   position: |-
