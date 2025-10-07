@@ -3,9 +3,9 @@ secondary_name: ""
 navbar_name: "Dongjun Park"
 
 positions:
-- logo: /assets/images/badges/MIT_Social_circle.png  # Logo is optional
-  name: Position 1 with logo
-- name: Position 2 without logo
+- logo: /assets/images/photo/yonsei_cs_logo.png # Logo is optional
+  name: Yonsei University
+- name: Department of computer science B.S.student
 
 
 email: "gary0719@yonsei.ac.kr"
