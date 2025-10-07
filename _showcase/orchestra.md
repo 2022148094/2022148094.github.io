@@ -13,11 +13,14 @@ width: 6
     <b>youtube channel</b>
   </a>
 </p>
-<div style="display: flex; flex-wrap: wrap; gap: 8px;">
-  <img src="/assets/images/orchestra1.jpg" width="30%" style="border-radius:8px;">
-  <img src="/assets/images/orchestra2.jpg" width="30%" style="border-radius:8px;">
-  <img src="/assets/images/orchestra3.jpg" width="30%" style="border-radius:8px;">
-  <img src="/assets/images/orchestra4.png" width="30%" style="border-radius:8px;">
-  <img src="/assets/images/orchestra5.jpg" width="30%" style="border-radius:8px;">
-  <img src="/assets/images/orchestra6.jpg" width="30%" style="border-radius:8px;">
+<div style="display: flex; flex-wrap: wrap; gap: 18px;">
+
+  <img src="orchestra1.jpg" alt="연주회" width="320" height="240" style="object-fit:cover; aspect-ratio:4/3; border-radius:9px;">
+  <img src="orchestra2.jpg" alt="포스터" width="320" height="240" style="object-fit:cover; aspect-ratio:4/3; border-radius:9px;">
+  <img src="orchestra3.jpg" alt="첼로 단체" width="320" height="240" style="object-fit:cover; aspect-ratio:4/3; border-radius:9px;">
+  <img src="orchestra4.jpg" alt="연습" width="320" height="240" style="object-fit:cover; aspect-ratio:4/3; border-radius:9px;">
+  <img src="orchestra5.jpg" alt="전체 단체" width="320" height="240" style="object-fit:cover; aspect-ratio:4/3; border-radius:9px;">
+  <img src="orchestra6.jpg" alt="정기연주회" width="320" height="240" style="object-fit:cover; aspect-ratio:4/3; border-radius:9px;">
+
 </div>
+
