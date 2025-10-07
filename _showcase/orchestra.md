@@ -10,9 +10,7 @@ width: 6
 
 <p>
   Regular concerts, cello section activities, and various collaboration and performance experiences.
-  <a href="https://www.youtube.com/@euphonia_yonsei" target="_blank">
-    <b>youtube channel</b>
-  </a>
+  <a href="https://www.youtube.com/@euphonia_yonsei" target="_blank"><b>youtube channel</b></a>
 </p>
 
 <div style="display: flex; flex-wrap: wrap; gap: 18px;">
