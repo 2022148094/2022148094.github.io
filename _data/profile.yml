@@ -33,31 +33,30 @@ portrait_caption: >-
 education:
 - name: Yonsei University
   logo: /assets/images/photos/yonsei_cs_logo.png
-  position: >- 
-    Department of Computer Science <br/>
+  position: |-
+    Department of Computer Science
     B.S. Student (GPA: 3.62/4.30)
   date: Mar. 2022 – Present
 - name: Korea Minjok Leadership Academy
   logo: /assets/images/photos/kmla_logo.jpg
-  position: Bio Science (GPA: 3.85/5.00)
+  position: |-
+    Bio Science (GPA: 3.85/5.00)
   date: Mar. 2018 – Feb. 2021
 
 experience:
 - name: Republic of Korea Air Force
-  position: Squad Leader, Guard Post Operations
+  position: "Squad Leader, Guard Post Operations"
   date: Sep. 2023 – Jun. 2025
-- name: Multiple Private Clients & Academic Teams
-  position: Private Tutor & Teaching Assistant
+- name: "Multiple Private Clients and Academic Teams"
+  position: "Private Tutor & Teaching Assistant"
   date: Mar. 2022 – Jul. 2023
-- name: Academic Projects (Yonsei University)
-  position: >-
+- name: "Academic Projects (Yonsei University)"
+  position: |-
     Computer Science Coursework
-    
     • Graph-Based Image Segmentation (Data Structures)
-    • OOP-Based 2D Console Rogue-like Game (Object-Oriented Programming)  
+    • OOP-Based 2D Console Rogue-like Game (Object-Oriented Programming)
     • Flight Scheduling System (C++ Implementation)
   date: 2022 – Present
-  
 
 # awards:
 #- name: Award Name 2
