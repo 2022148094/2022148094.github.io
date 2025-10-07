@@ -13,8 +13,12 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-baseurl: "/academic-homepage" # the subpath of your site, e.g. /blog
+baseurl: "" # the subpath of your site, e.g. /blog
 
+url: "https://2022148094.github.io"  # 네 GitHub Pages URL
+
+title: "Dongjun Park"
+description: "Computer Science Student at Yonsei University"
 # Build settings
 markdown: kramdown
 plugins:
