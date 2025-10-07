@@ -3,7 +3,7 @@ secondary_name: ""
 navbar_name: "Dongjun Park"
 
 positions:
-- logo: /assets/images/photo/yonsei_cs_logo.png # Logo is optional
+- logo: /assets/images/photos/yonsei_cs_logo.png # Logo is optional
   name: Yonsei University
 - name: Department of computer science B.S.student
 
