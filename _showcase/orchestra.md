@@ -15,12 +15,12 @@ width: 6
 </p>
 <div style="display: flex; flex-wrap: wrap; gap: 18px;">
 
-  <img src="orchestra1.jpg" alt="연주회" width="320" height="240" style="object-fit:cover; aspect-ratio:4/3; border-radius:9px;">
-  <img src="orchestra2.jpg" alt="포스터" width="320" height="240" style="object-fit:cover; aspect-ratio:4/3; border-radius:9px;">
-  <img src="orchestra3.jpg" alt="첼로 단체" width="320" height="240" style="object-fit:cover; aspect-ratio:4/3; border-radius:9px;">
-  <img src="orchestra4.jpg" alt="연습" width="320" height="240" style="object-fit:cover; aspect-ratio:4/3; border-radius:9px;">
-  <img src="orchestra5.jpg" alt="전체 단체" width="320" height="240" style="object-fit:cover; aspect-ratio:4/3; border-radius:9px;">
-  <img src="orchestra6.jpg" alt="정기연주회" width="320" height="240" style="object-fit:cover; aspect-ratio:4/3; border-radius:9px;">
+  <img src="orchestra1.jpg" width="320" height="240" style="object-fit:cover; aspect-ratio:4/3; border-radius:9px;">
+  <img src="orchestra2.jpg" width="320" height="240" style="object-fit:cover; aspect-ratio:4/3; border-radius:9px;">
+  <img src="orchestra3.jpg" width="320" height="240" style="object-fit:cover; aspect-ratio:4/3; border-radius:9px;">
+  <img src="orchestra4.png" width="320" height="240" style="object-fit:cover; aspect-ratio:4/3; border-radius:9px;">
+  <img src="orchestra5.jpg" width="320" height="240" style="object-fit:cover; aspect-ratio:4/3; border-radius:9px;">
+  <img src="orchestra6.jpg" width="320" height="240" style="object-fit:cover; aspect-ratio:4/3; border-radius:9px;">
 
 </div>
 
