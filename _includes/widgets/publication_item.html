@@ -24,12 +24,12 @@
     vertical-align: middle;
 }
 </style>
-
+<!-- Desktop view -->
 <div class="d-none d-md-block">
     <div class="row no-gutters {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray">
         <div class="col-md-3 col-xl-2 mb-md-0 p-md-3">
             {%- if item.cover -%}
-            <img data-src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="lazy w-100 rounded-sm" src="{{ '/assets/images/empty_300x200.png' | relative_url }}"/>
+            <img data-src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="lazy w-100 rounded-sm" src="{{ '/assets/images/empty_300x200.png' | relative_url }}" />
             {%- else -%}
             <svg class="bubble-visual-hash lazy w-100 rounded-sm" data-bubble-visual-hash="{{ item.id }}" viewBox="0 0 300 200"></svg>
             {%- endif -%}
@@ -42,34 +42,37 @@
                 {%- endif -%}
             </h5>
             <div class="pub-desc" style="margin-top: 0.5rem; margin-bottom: 0.5rem;">
-                <p>{{ item.description }}</p>
+                {{ item.description }}
             </div>
             {%- if item.course -%}
             <p class="mb-1">
-                <strong>Course:</strong> {{ item.course }}
+                Course: {{ item.course }}
                 {%- if item.logo -%}
-                <img src="{{ item.logo | relative_url }}" alt="{{ item.course }} logo" class="logo-image"/>
+                <img src="{{ item.logo | relative_url }}" alt="{{ item.course }} logo" class="logo-image" />
                 {%- endif -%}
             </p>
             {%- endif -%}
+            {%- if item.author -%}
+            <p class="mt-0 mb-0 small">{{ item.author }}</p>
+            {%- endif -%}
+            {%- if item.venue or item.publication_date -%}
             <p class="mb-1">
-                {%- if item.authors -%}
-                <strong>Authors:</strong> {{ item.authors }}<br/>
-                {%- endif -%}
                 {%- if item.venue -%}
-                <strong>Venue:</strong> {{ item.venue }}<br/>
+                Venue: {{ item.venue }}
+                <br />
                 {%- endif -%}
                 {%- if item.publication_date -%}
-                <strong>Date:</strong> {{ item.publication_date }}<br/>
+                Date: {{ item.publication_date }}
+                <br />
                 {%- endif -%}
             </p>
+            {%- endif -%}
             {%- if item.abstract -%}
             <details class="mt-2">
                 <summary class="text-muted">Abstract</summary>
                 <p class="mt-2">{{ item.abstract }}</p>
             </details>
             {%- endif -%}
-
             {%- if item.paper_url or item.code_url or item.video_url -%}
             <div class="d-flex flex-wrap">
                 {%- if item.paper_url -%}
@@ -86,7 +89,6 @@
         </div>
     </div>
 </div>
-
 <!-- Mobile view -->
 <div class="d-md-none border-bottom border-gray">
     <div class="p-3">
@@ -97,34 +99,37 @@
             {%- endif -%}
         </h5>
         <div class="pub-desc" style="margin-top: 0.5rem; margin-bottom: 0.5rem;">
-            <p>{{ item.description }}</p>
+            {{ item.description }}
         </div>
         {%- if item.course -%}
         <p class="mb-1">
-            <strong>Course:</strong> {{ item.course }}
+            Course: {{ item.course }}
             {%- if item.logo -%}
-            <img src="{{ item.logo | relative_url }}" alt="{{ item.course }} logo" class="logo-image"/>
+            <img src="{{ item.logo | relative_url }}" alt="{{ item.course }} logo" class="logo-image" />
             {%- endif -%}
         </p>
         {%- endif -%}
+        {%- if item.author -%}
+        <p class="mt-0 mb-0 small">{{ item.author }}</p>
+        {%- endif -%}
+        {%- if item.venue or item.publication_date -%}
         <p class="mb-1">
-            {%- if item.authors -%}
-            <strong>Authors:</strong> {{ item.authors }}<br/>
-            {%- endif -%}
             {%- if item.venue -%}
-            <strong>Venue:</strong> {{ item.venue }}<br/>
+            Venue: {{ item.venue }}
+            <br />
             {%- endif -%}
             {%- if item.publication_date -%}
-            <strong>Date:</strong> {{ item.publication_date }}<br/>
+            Date: {{ item.publication_date }}
+            <br />
             {%- endif -%}
         </p>
+        {%- endif -%}
         {%- if item.abstract -%}
         <details class="mt-2">
             <summary class="text-muted">Abstract</summary>
             <p class="mt-2">{{ item.abstract }}</p>
         </details>
         {%- endif -%}
-
         {%- if item.paper_url or item.code_url or item.video_url -%}
         <div class="d-flex flex-wrap">
             {%- if item.paper_url -%}
@@ -138,15 +143,13 @@
             {%- endif -%}
         </div>
         {%- endif -%}
-
         {%- if item.cover -%}
-        <img data-src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="lazy w-100 rounded-sm mt-2" src="{{ '/assets/images/empty_300x200.png' | relative_url }}"/>
+        <img data-src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="lazy w-100 rounded-sm mt-2" src="{{ '/assets/images/empty_300x200.png' | relative_url }}" />
         {%- else -%}
         <svg class="bubble-visual-hash lazy w-100 rounded-sm mt-2" data-bubble-visual-hash="{{ item.id }}" viewBox="0 0 300 200"></svg>
         {%- endif -%}
     </div>
 </div>
-
 <script>
 function toggleDescription(element) {
     var descDiv = element.closest('h5').nextElementSibling;
