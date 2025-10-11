@@ -1,6 +1,6 @@
 ---
 title: "Object Oriented Programming"
-authors: "Professor Seon Joo Kim"
+author: Dongjun Park
 date: 2022-12-31
 selected: true
 logo: "/assets/images/photos/yonsei_cs_logo.png"
