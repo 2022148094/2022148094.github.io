@@ -1,6 +1,6 @@
 ---
 title: "Data Structure"
-authors: "Professor Seong Jae Hwang"
+author: Dongjun Park
 date: 2023-06-30
 selected: true
 logo: "/assets/images/photos/yonsei_cs_logo.png"
