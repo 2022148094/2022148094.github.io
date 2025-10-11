@@ -5,7 +5,7 @@ group: "Activity"
 show: true
 width: 6
 ---
-### [Euphonia (amateur orchestra club)](https://www.youtube.com/@euphonia_yonsei)
+### [Euphonia (Amateur orchestra club)](https://www.youtube.com/@euphonia_yonsei)
 
 
 <div class="scroll-gallery">
