@@ -1,9 +1,9 @@
 ---
-title: "2022-2 Semester Courses"
+title: "Object Oriented Programming"
 authors: "Dongjun Park"
 date: 2022-12-31
 selected: true
 logo: "/assets/images/photos/yonsei_cs_logo.png"
-description: "Object Oriented Programming - Focus on OOP principles in Java, including encapsulation, inheritance, polymorphism, and class design. Key assignments included designing and implementing a simple banking application and a mini-game using Java classes."
+description: "Focus on OOP principles in Java, including encapsulation, inheritance, polymorphism, class design. Includes a banking app and mini-game project in Java."
 technologies: "Java, OOP, Software Design"
 ---
