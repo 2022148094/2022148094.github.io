@@ -21,6 +21,8 @@
     max-height: 60px;
     margin-left: 10px;
     vertical-align: middle;
+    border-radius: 50%;
+    object-fit: cover;
 }
 </style>
 
@@ -48,7 +50,7 @@
             <p class="mb-1">
                 Course: {{ item.course }}
                 {%- if item.logo -%}
-                <img src="" class="logo-image" alt="{{ item.course }} logo" />
+                <img src="{{ item.logo | relative_url }}" class="logo-image" alt="{{ item.course }} logo" />
                 {%- endif -%}
             </p>
             {%- endif -%}
@@ -106,7 +108,7 @@
         <p class="mb-1">
             Course: {{ item.course }}
             {%- if item.logo -%}
-            <img src="" class="logo-image" alt="{{ item.course }} logo" />
+            <img src="{{ item.logo | relative_url }}" class="logo-image" alt="{{ item.course }} logo" />
             {%- endif -%}
         </p>
         {%- endif -%}
