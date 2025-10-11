@@ -1,5 +1,4 @@
 {% assign item = include.item %}
-<!-- Styles for description toggle -->
 <style>
 .pub-desc {
     display: none;
@@ -24,12 +23,13 @@
     vertical-align: middle;
 }
 </style>
+
 <!-- Desktop view -->
 <div class="d-none d-md-block">
     <div class="row no-gutters {% unless include.hide_bottom_border %}border-bottom{% endunless %} border-gray">
         <div class="col-md-3 col-xl-2 mb-md-0 p-md-3">
             {%- if item.cover -%}
-            <img data-src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="lazy w-100 rounded-sm" src="{{ '/assets/images/empty_300x200.png' | relative_url }}" />
+            <img src="{{ '/assets/images/empty_300x200.png' | relative_url }}" data-src="{{ '/assets/images/photos/yonsei_cs_logo.png' | relative_url }}" alt="{{ item.title }}" class="lazy w-100 rounded-sm" />
             {%- else -%}
             <svg class="bubble-visual-hash lazy w-100 rounded-sm" data-bubble-visual-hash="{{ item.id }}" viewBox="0 0 300 200"></svg>
             {%- endif -%}
@@ -48,7 +48,7 @@
             <p class="mb-1">
                 Course: {{ item.course }}
                 {%- if item.logo -%}
-                <img src="{{ item.logo | relative_url }}" alt="{{ item.course }} logo" class="logo-image" />
+                <img src="" class="logo-image" alt="{{ item.course }} logo" />
                 {%- endif -%}
             </p>
             {%- endif -%}
@@ -89,6 +89,7 @@
         </div>
     </div>
 </div>
+
 <!-- Mobile view -->
 <div class="d-md-none border-bottom border-gray">
     <div class="p-3">
@@ -105,7 +106,7 @@
         <p class="mb-1">
             Course: {{ item.course }}
             {%- if item.logo -%}
-            <img src="{{ item.logo | relative_url }}" alt="{{ item.course }} logo" class="logo-image" />
+            <img src="" class="logo-image" alt="{{ item.course }} logo" />
             {%- endif -%}
         </p>
         {%- endif -%}
@@ -144,12 +145,13 @@
         </div>
         {%- endif -%}
         {%- if item.cover -%}
-        <img data-src="{{ item.cover | relative_url }}" alt="{{ item.title }}" class="lazy w-100 rounded-sm mt-2" src="{{ '/assets/images/empty_300x200.png' | relative_url }}" />
+        <img src="{{ '/assets/images/empty_300x200.png' | relative_url }}" data-src="{{ '/assets/images/photos/yonsei_cs_logo.png' | relative_url }}" alt="{{ item.title }}" class="lazy w-100 rounded-sm mt-2" />
         {%- else -%}
         <svg class="bubble-visual-hash lazy w-100 rounded-sm mt-2" data-bubble-visual-hash="{{ item.id }}" viewBox="0 0 300 200"></svg>
         {%- endif -%}
     </div>
 </div>
+
 <script>
 function toggleDescription(element) {
     var descDiv = element.closest('h5').nextElementSibling;
