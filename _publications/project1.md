@@ -1,9 +1,9 @@
 ---
-title: "2022-1 Semester Courses"
+title: "Computer Programming (Python)"
 authors: "Dongjun Park"
 date: 2022-06-30
 selected: true
 logo: "/assets/images/photos/yonsei_cs_logo.png"
-description: "Computer Programming (Python) - Introductory programming using Python, covering basic syntax, control structures, functions, and hands-on coding labs. Work assessed via practical problem-solving assignments."
+description: "Introductory programming using Python. Covers basic syntax, control structures, functions, hands-on coding labs. Assessment via problem-solving assignments."
 technologies: "Python, Programming Fundamentals"
 ---
