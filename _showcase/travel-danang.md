@@ -6,7 +6,7 @@ show: true
 width: 4
 ---
 
-### Danang
+### Danang, Vietnam
 
 <div class="scroll-gallery-rect">
   <img src="/assets/images/danang1.jpg" alt="Danang 1"/>
