@@ -1,6 +1,6 @@
 ---
 title: "Discrete Mathematics"
-authors: "Professor SooKyung Lee"
+author: Dongjun Park
 date: 2023-06-30
 selected: true
 logo: "/assets/images/photos/yonsei_cs_logo.png"
