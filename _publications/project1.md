@@ -1,6 +1,6 @@
 ---
 title: "Computer Programming (Python)"
-authors: "Dr. Byungjoo Lee"
+author: Dongjun Park
 date: 2022-06-30
 selected: true
 logo: "/assets/images/photos/yonsei_cs_logo.png"
