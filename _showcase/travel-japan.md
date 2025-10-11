@@ -6,7 +6,7 @@ show: true
 width: 4
 ---
 
-### Japan
+### Fukuoka, Japan
 
 <div class="scroll-gallery-rect">
   <img src="/assets/images/japan1.jpg" alt="Japan 1"/>
