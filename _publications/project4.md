@@ -1,6 +1,6 @@
 ---
 title: "Discrete Mathematics"
-author: Professor SooKyung Lee
+author: Professor Sookyung Lee
 date: 2023-06-30
 selected: true
 logo: "/assets/images/photos/yonsei_cs_logo.png"
